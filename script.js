@@ -15,12 +15,7 @@ function init() {
       c: 'yellow',
       d: '#fc65c9',
     },
-    {
-      a: '#fff',
-      b: '#3b3bca',
-      c: '#9953f5',
-      d: '#67fdf1',
-    },
+
     {
       a: 'navy',
       b: '#a6e1fc',
