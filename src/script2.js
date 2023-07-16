@@ -293,9 +293,12 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/R1K171TAchM");
+  ifrm.setAttribute("src", "https://www.youtube.com/embed/R1K171TAchM?autoplay=1");
+
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
+
   document.querySelector('#video').appendChild(ifrm);
+
 }

@@ -1,6 +1,19 @@
 /* Kaushan+Script, oregano, sail */
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+
+}
+
 html,
 body,
 .container {
@@ -28,19 +41,20 @@ div#beach {
   background-image: url(https://dl.dropbox.com/s/oe0oce2udq44bj5/beachsil2.png);
   /* background-size: cover; */
   background-position: bottom right;
-  background-size: 3200px;
+  background-size: 3100px;
   background-repeat: no-repeat;
+  right: -100px;
 }
 
 div#video {
   position: absolute;
-  right: 468px;
-  bottom: 378px;
+  right: 453px;
+  bottom: 360px;
 }
 
 div#video iframe {
-  width: 455px;
-  height: 300px;
+  width: 442px;
+  height: 290px;
 }
 
 #people {
@@ -69,7 +83,7 @@ div#sea {
 
 .merrywrap {
   position: absolute;
-  right: 0px;
+  right: -43px;
   left: 0px;
   bottom: 0px;
   top: 0px;
@@ -182,7 +196,7 @@ div#sea {
 
 .icons {
   position: absolute;
-  right: 1%;
+  right: 15%;
   top: 25%;
   width: 100%;
   height: auto;
@@ -479,14 +493,28 @@ div#sea {
   }
 
   div#video {
-    right: 690px;
-    bottom: 635px;
+    position: absolute;
+    right: 468px;
+    bottom: 378px;
   }
 
   div#video iframe {
-    width: 695px;
-    height: 585px;
+    width: 455px;
+    height: 300px;
   }
+
+
+  /*
+  div#video {
+  position: absolute;
+  right: 468px;
+  bottom: 378px;
+}
+
+div#video iframe {
+  width: 455px;
+  height: 300px;
+}*/
 
   .moon {
     right: 230px;
