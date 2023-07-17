@@ -10,7 +10,7 @@ $(function () {
           $(this).addClass('puff-bubble');
         });
         $('#glow').remove();
-        txt.html("Felices <b>18</b> Amor de mi vida, Guadalupe♥️...").delay(10550).fadeOut(800);
+        txt.html("Felices <b>18</b> Amor de mi vida, Guadalupe...").delay(10550).fadeOut(800);
         $('#candle').animate(
           {
             //'opacity': '.5'
