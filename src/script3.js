@@ -1,6 +1,8 @@
+var flame = $('#flame');
+var txt = $('h1');
+
 $(function () {
-  var flame = $('#flame');
-  var txt = $('h1');
+
 
   flame.on(
     {
