@@ -1,4 +1,4 @@
-$(function () {
+(function () {
   var flame = $('#flame');
   var txt = $('h1');
 
