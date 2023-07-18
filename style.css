@@ -236,3 +236,26 @@ h4 {
 .text-right {
   text-align: right;
 }
+
+.bottom {
+  color: white;
+  background-color: #5d3777;
+  padding-left: 100px;
+  padding: .5em 2.5em;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  left: 420px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.bottom:hover {
+  background: #ff007b;
+  transform: scale(1.04, 1.04);
+  transition-duration: .3s;
+  padding: .5em 2.5em;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
