@@ -14,7 +14,7 @@ function App() {
   return /*#__PURE__*/(
     React.createElement("button", { className: "button", onClick: onClick }, /*#__PURE__*/
       React.createElement("span", null, "\uD83C\uDF89"), /*#__PURE__*/
-      React.createElement("span", null, "Like")));
+      React.createElement("span", null, "UwU")));
 
 
 }
